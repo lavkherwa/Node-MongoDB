@@ -8,6 +8,20 @@ Replace the MONGODB_URI in the [config file](RestWithMongoDb/config.js) with you
 
 Clone repository and run the application to have your customer crud working 😉
 
+## NEW - Added JWT Token authentication 
+
+Now to access the any api's you need the token first.
+- Register new user <br>
+  [POST] http://localhost:3000/register
+- Get **token** for registered user <br>
+  [POST] http://localhost:3000/auth
+- Pass below header for accessing any api's <br>
+  Header: Authentication <br>
+  Value: Bearer **token**
+
+
+
+
 ## If you're new to NodeJs refer below
 
 - Create application discriptor file (package.json) <br>
