@@ -8,6 +8,8 @@ Replace the MONGODB_URI in the [config file](RestWithMongoDb/config.js) with you
 
 Clone repository and run the application to have your customer crud working 😉
 
+**NOTE:** Api's are protected with authentication token, please check below on how to access the api's
+
 ## NEW - Added JWT Token authentication 
 
 Now to access the any api's you need the token first.
