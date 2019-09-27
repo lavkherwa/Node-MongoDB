@@ -42,3 +42,6 @@ Now to access the any api's you need the token first.
 
 - To enabling security install below libraries <br>
   **command:** npm i restify-jwt-community jsonwebtoken bcryptjs
+  
+  
+References: https://www.youtube.com/watch?v=bqn-sx0v-l0
