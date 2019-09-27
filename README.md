@@ -21,3 +21,8 @@ Clone repository and run the application to have your customer crud working 😉
 
 - Run the application on local machine <br>
   **command:** npm run dev (NOTE: This will run nodemon, to stop press 'control + c' on mac)
+  
+## Security
+
+- To enabling security install below libraries <br>
+  **command:** npm i restify-jwt-community jsonwebtoken bcryptjs
