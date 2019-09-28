@@ -12,7 +12,7 @@ Clone repository and run the application to have your customer crud working 😉
 
 ## NEW - Added JWT Token authentication 
 
-Now to access the any api's you need the token first.
+Now to access any api's you need to provide token.
 - Register new user <br>
   [POST] http://localhost:3000/register
 - Get **token** for registered user <br>
