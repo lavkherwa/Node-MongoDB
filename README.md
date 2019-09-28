@@ -30,6 +30,10 @@ Now to access any api's you need to provide token.
   **command:** npm init -y
 - Add dependencies to our Application <br>
   **command:** npm i restify restify-errors mongoose mongoose-timestamp
+  * **restify -** For creating rest api endpoints
+  * **restify-errors -** For handling http errors
+  * **mongoose -** For communicating with MONGO DB
+  * **mongoose-timestamp -** For adding audit trail info with records
 - Add Dev dependencies <br>
   **command:** npm i -D nodemon
 - Delete node modules folder (In case of corrupted files) <br>
@@ -42,6 +46,8 @@ Now to access any api's you need to provide token.
 
 - To enabling security install below libraries <br>
   **command:** npm i restify-jwt-community jsonwebtoken bcryptjs
-  
+  * **restify-jwt-community -** For protecting endpoints
+  * **jsonwebtoken -** For setting up auth server and creating JWT token
+  * **bcryptjs -** For password encryption/decryption of the registered user
   
 References: https://www.youtube.com/watch?v=bqn-sx0v-l0
